@@ -15,4 +15,4 @@ jobs:
     - name: Docker Permission
       run: sudo chmod 666 /var/run/docker.sock
     - name: Docker image
-      run: docker-compose up
+      run: docker-compose up -d
